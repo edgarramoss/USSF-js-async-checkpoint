@@ -31,6 +31,7 @@ fs.readFile(pokemonToSearch, "utf-8", function (err, pokemonToSearchContent) {
     for (let pokemon of pokemonSplitList) {
       pokemonFileArray.push(pokemon);
     }
+
+    fetch("https://pokeapi.co/api/v2/pokemon/");
   }
-  console.log(pokemonFileArray);
 });
