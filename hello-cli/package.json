@@ -1,0 +1,19 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Edgar Ramos",
+  "license": "ISC",
+  "bin": {
+    "get": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "yargs": "^13.2.4"
+  }
+}
